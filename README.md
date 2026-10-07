@@ -6,11 +6,19 @@
 
 | Skill | 用途 |
 | --- | --- |
-| [`situated-decision-guide`](skills/situated-decision-guide/SKILL.md) | 从具体处境中发现值得回答的问题，并结合个人目标、约束和证据给出决策建议。 |
+| [`lulu-life-decision`](skills/lulu-life-decision/SKILL.md) · 人生决策指南 | 从具体处境中发现值得回答的问题，并结合个人目标、约束和证据给出决策建议。 |
 
 ## 安装
 
 需要 Node.js 环境。
+
+只安装人生决策指南：
+
+```bash
+npx skills add luckyluucc/lulu-skills --skill lulu-life-decision -g -a codex -y
+```
+
+安装全部 Skill：
 
 ```bash
 npx skills add luckyluucc/lulu-skills --all -g -a codex -y
@@ -28,7 +36,7 @@ npx skills add luckyluucc/lulu-skills --list
 
 ## 使用
 
-安装后，可以直接说出你的问题，让 Agent 按 Skill 描述判断何时使用；也可以明确指定 `situated-decision-guide`。这套仓库的“整包”指一次安装多个独立 Skill，目前没有统一的总入口或固定调用顺序。
+安装后，可以直接说出你的问题，让 Agent 按 Skill 描述判断何时使用；也可以明确指定 `lulu-life-decision`。这套仓库的“整包”指一次安装多个独立 Skill，目前没有统一的总入口或固定调用顺序。
 
 ## 增加 Skill
 
@@ -36,7 +44,7 @@ npx skills add luckyluucc/lulu-skills --list
 
 ```text
 skills/
-  situated-decision-guide/
+  lulu-life-decision/
     SKILL.md
   another-skill/
     SKILL.md
