@@ -7,6 +7,7 @@
 | Skill | 用途 |
 | --- | --- |
 | [`lulu-life-decision`](skills/lulu-life-decision/SKILL.md) · 人生决策指南 | 从具体处境中发现值得回答的问题，并结合个人目标、约束和证据给出决策建议。 |
+| [`moodboard-collection-assistant`](skills/moodboard-collection-assistant/SKILL.md) · 情绪板搜集助手 | 按项目简报搜集、筛选和整理视觉参考及来源。 |
 
 ## 安装
 
@@ -16,6 +17,12 @@
 
 ```bash
 npx skills add luckyluucc/lulu-skills --skill lulu-life-decision -g -a codex -y
+```
+
+只安装情绪板搜集助手：
+
+```bash
+npx skills add luckyluucc/lulu-skills --skill moodboard-collection-assistant -g -a codex -y
 ```
 
 安装全部 Skill：
